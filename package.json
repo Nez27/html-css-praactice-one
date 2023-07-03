@@ -1,10 +1,10 @@
 {
   "name": "practice-01",
   "version": "1.0.0",
-  "description": "Practice html-css-training-one",
+  "description": "Practice html-css-t",
   "scripts": {
-    "start": "rm -rf dist && rm -rf .parcel-cache && parcel ./src/pages/*.html --no-cache --no-source-maps",
-    "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/pages/*.html --no-cache --no-source-maps --dist-dir build",
+    "start": "rm -rf dist && rm -rf .parcel-cache && parcel ./src/*.html --no-cache --no-source-maps",
+    "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/*.html --no-cache --no-source-maps --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
