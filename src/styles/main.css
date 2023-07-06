@@ -75,7 +75,6 @@
 .header {
   padding-top: 35px;
   padding-bottom: 40px;
-  margin: auto;
   width: 1175px;
 }
 
@@ -85,13 +84,6 @@
 
 .background {
   background-color: var(--primary-color);
-}
-
-.container {
-  /* padding-top: 35px;
-  padding-bottom: 40px; */
-  margin: auto;
-  color: var(--white);
 }
 
 .logo {
@@ -117,7 +109,6 @@
 
 /* Welcome section */
 .welcome {
-  margin: auto;
   gap: 120px;
   padding-bottom: 82.87px;
   width: 1180px;
