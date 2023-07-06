@@ -1,9 +1,6 @@
 @import url("./abstracts/variables.css");
 @import url("./bases/typo.css");
-
-* {
-  line-height: 125%;
-}
+@import url("./bases/reset.css");
 
 .wrapper {
   width: 1440px;
@@ -18,13 +15,14 @@
 .text {
   font-size: var(--fs-md);
   font-family: var(--ff-primary-regular);
+  line-height: 125%;
 }
 
 .text--bold {
   font-family: var(--ff-primary-bold);
 }
 
-.text--gray {
+.text--secondary-color {
   color: var(--gray);
 }
 
@@ -79,8 +77,8 @@
   padding-bottom: 40px;
 }
 
-.logo-link {
-  height: auto;
+.logo-wrapper {
+  height: 50px;
 }
 
 .background {
@@ -121,6 +119,7 @@
 }
 
 .welcome__content {
+  width: 416px;
   gap: 15px;
 }
 
@@ -140,15 +139,24 @@
   margin-bottom: 25px;
 }
 
+.welcome-image-container {
+  height: 378px;
+  width: 644px;
+}
+
+.welcome__image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .btn {
   /* Display & Box Models */
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 48px;
-  border: none;
+  width: 168px;
+  height: 46px;
 
   /* Text */
   text-decoration: none;
@@ -162,11 +170,13 @@
 .btn-primary {
   color: var(--black);
   background-color: var(--white);
+  border: 1px solid var(--white);
 }
 
 .btn-primary:hover {
   background-color: var(--black);
   color: var(--white);
+  border: 1px solid var(--black);
 }
 
 .btn-secondary {
@@ -182,7 +192,8 @@
 
 /* Pattern Section */
 .sponsor__container {
-  margin: 60 auto;
+  padding-top: 60px;
+  margin: auto;
   gap: 55px;
 }
 
@@ -215,7 +226,7 @@
 
 /* Conversation Section */
 .conversation__container {
-  margin: 60px auto;
+  margin-top: 73px;
 }
 
 .conversation__content {
@@ -225,7 +236,7 @@
 
 /* Security section */
 .security__container {
-  margin: 60px auto;
+  margin-top: 73px;
 }
 
 .security__content {
@@ -236,8 +247,13 @@
 /* Team section */
 
 .team__container {
+  margin-top: 102px;
   gap: 45px;
   margin-bottom: 54px;
+}
+
+.team__heading {
+  text-transform: capitalize;
 }
 
 .team__content {
@@ -290,17 +306,19 @@
 
 /* Footer */
 .footer__content {
-  padding: 50px 131px;
-  width: var(--max-width);
-  margin: auto;
+  padding-top: 51px;
+  padding-bottom: 49px;
 }
 
 .footer__logos {
   gap: 20px;
+  align-items: center;
 }
 
 .footer__text {
-  line-height: 125%;
-
   color: var(--white);
+}
+
+.footer__link {
+  height: 19px;
 }
