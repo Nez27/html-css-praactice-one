@@ -75,6 +75,8 @@
 .header {
   padding-top: 35px;
   padding-bottom: 40px;
+  margin: auto;
+  width: 1175px;
 }
 
 .logo-wrapper {
@@ -99,12 +101,14 @@
 .nav__lists {
   list-style: none;
   gap: 30px;
+  display: inline-flex;
 }
 
 .nav__item-link {
   text-decoration: none;
   color: var(--white);
   transition: 0.3s;
+  padding: 0.5px;
 }
 
 .nav__item-link:hover {
@@ -116,10 +120,17 @@
   margin: auto;
   gap: 120px;
   padding-bottom: 82.87px;
+  width: 1180px;
 }
 
 .welcome__content {
   width: 416px;
+  gap: 15px;
+}
+
+.welcome__content-text {
+  display: flex;
+  flex-direction: column;
   gap: 15px;
 }
 
@@ -135,8 +146,11 @@
 }
 
 .welcome__description {
-  color: var(--white);
-  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.welcome__btn {
+  margin-top: 25px;
 }
 
 .welcome-image-container {
@@ -145,8 +159,8 @@
 }
 
 .welcome__image {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .btn {
@@ -214,10 +228,13 @@
 
 .sponsor__logos {
   gap: 68px;
+  width: 1159px;
+  height: 50px;
 }
 
 .sponsor__logo-item {
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .sponsor__logo-item:hover {
@@ -234,6 +251,16 @@
   gap: 16px;
 }
 
+.conversation__wrapper-image {
+  width: 600px;
+  height: 431px;
+}
+
+.conversation__image {
+  width: 100%;
+  height: 100%;
+}
+
 /* Security section */
 .security__container {
   margin-top: 73px;
@@ -242,6 +269,16 @@
 .security__content {
   width: 470px;
   gap: 16px;
+}
+
+.security__wrapper-image {
+  width: 600px;
+  height: 566px;
+}
+
+.security__image {
+  width: 100%;
+  height: 100%;
 }
 
 /* Team section */
@@ -274,6 +311,7 @@
   height: 299px;
   box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .team__frame:hover {
@@ -286,6 +324,11 @@
 }
 
 .team__image {
+  width: 100%;
+  height: 100%;
+}
+
+.team__wrapper-image {
   width: 175px;
   height: 175px;
 }

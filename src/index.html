@@ -9,52 +9,52 @@
 
   <body>
     <div class="background">
-      <div class="width-container">
-        <!-- Start header -->
-        <header class="header">
-          <div class="container divide-content-center text text--md">
-            <a href="javascript:void(0)" class="logo-link">
-              <div class="logo-wrapper">
-                <img src="./assets/images/logo.svg" alt="Logo web" class="logo" />
-              </div>
-            </a>
-            <nav class="nav">
-              <ul class="nav__lists d-flex justify-content-between">
-                <li class="nav__item">
-                  <a href="javascript:void(0)" class="nav__item-link">Home</a>
-                </li>
-                <li class="nav__item">
-                  <a href="javascript:void(0)" class="nav__item-link">Portfolio</a>
-                </li>
-                <li class="nav__item">
-                  <a href="javascript:void(0)" class="nav__item-link">Services</a>
-                </li>
-                <li class="nav__item">
-                  <a href="javascript:void(0)" class="nav__item-link">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-        <!-- End header -->
+      <!-- Start header -->
+      <header class="header">
+        <div class="container divide-content-center text text--md">
+          <a href="javascript:void(0)" class="logo-link">
+            <div class="logo-wrapper">
+              <img src="./assets/images/logo.svg" alt="Logo web" class="logo" />
+            </div>
+          </a>
+          <nav class="nav">
+            <ul class="nav__lists justify-content-between">
+              <li class="nav__item">
+                <a href="javascript:void(0)" class="nav__item-link text">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="javascript:void(0)" class="nav__item-link text">Portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a href="javascript:void(0)" class="nav__item-link text">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="javascript:void(0)" class="nav__item-link text">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- End header -->
 
-        <!-- Start welcome section -->
-        <section class="welcome d-flex align-item-center">
-          <div class="welcome__content d-flex flex-column">
+      <!-- Start welcome section -->
+      <section class="welcome d-flex align-item-center">
+        <div class="welcome__content">
+          <div class="welcome__content-text">
             <span class="welcome__title text--bold">Welcome</span>
             <h1 class="welcome__heading text--secondary text--lg">Lorem ipsum dolor sit amet consectetur</h1>
             <p class="welcome__description text text--sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis
               cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
             </p>
-            <a href="javascript:void(0)" class="btn btn-primary text">Explore</a>
           </div>
-          <div class="welcome-image-container">
-            <img src="./assets/images/header-image.png" alt="Header Image" class="welcome__image" />
-          </div>
-        </section>
-        <!-- End welcome section -->
-      </div>
+          <a href="javascript:void(0)" class="welcome__btn btn btn-primary text">Explore</a>
+        </div>
+        <div class="welcome-image-container">
+          <img src="./assets/images/header-image.png" alt="Header Image" class="welcome__image" />
+        </div>
+      </section>
+      <!-- End welcome section -->
     </div>
 
     <div class="width-container">
@@ -94,7 +94,9 @@
       <section class="conversation">
         <div class="conversation__container divide-content-center">
           <!-- Conversation image -->
-          <img src="./assets/images/conversation.png" alt="Conversation Image" class="conversation__image" />
+          <div class="conversation__wrapper-image">
+            <img src="./assets/images/conversation.png" alt="Conversation Image" class="conversation__image" />
+          </div>
 
           <!-- Conversation content -->
           <div class="conversation__content d-flex flex-column">
@@ -123,7 +125,9 @@
           </div>
 
           <!-- Security image -->
-          <img src="./assets/images/security.png" alt="Image Security" class="security__image" />
+          <div class="security__wrapper-image">
+            <img src="./assets/images/security.png" alt="Image Security" class="security__image" />
+          </div>
         </div>
       </section>
       <!-- End security section -->
@@ -143,7 +147,9 @@
             <!-- Frame 1 -->
             <div class="team__frame">
               <div class="team__image-content align-center">
-                <img src="./assets/images/avatar-1.png" alt="Avatar Image" class="team__image" />
+                <div class="team__wrapper-image">
+                  <img src="./assets/images/avatar-1.png" alt="Avatar Image" class="team__image" />
+                </div>
                 <div class="team__information d-flex flex-column">
                   <span class="team__name text--secondary">Peg legge</span>
                   <span class="team__position text text--sm text--secondary-color">Ceo</span>
@@ -154,7 +160,9 @@
             <!-- Frame 2 -->
             <div class="team__frame">
               <div class="team__image-content align-center">
-                <img src="./assets/images/avatar-2.png" alt="Avatar Image" class="team__image" />
+                <div class="team__wrapper-image">
+                  <img src="./assets/images/avatar-2.png" alt="Avatar Image" class="team__image" />
+                </div>
                 <div class="team__information">
                   <span class="team__name text--secondary">Richard guerra</span>
                   <span class="team__position text text--sm text--secondary-color">Cto</span>
@@ -165,7 +173,9 @@
             <!-- Frame 3 -->
             <div class="team__frame">
               <div class="team__image-content align-center">
-                <img src="./assets/images/avatar-3.png" alt="Avatar Image" class="team__image" />
+                <div class="team__wrapper-image">
+                  <img src="./assets/images/avatar-3.png" alt="Avatar Image" class="team__image" />
+                </div>
                 <div class="team__information">
                   <span class="team__name text--secondary">Alexandra stolz</span>
                   <span class="team__position text text--sm text--secondary-color">Designer</span>
@@ -176,7 +186,9 @@
             <!-- Frame 4 -->
             <div class="team__frame">
               <div class="team__image-content align-center">
-                <img src="./assets/images/avatar-4.png" alt="Avatar Image" class="team__image" />
+                <div class="team__wrapper-image">
+                  <img src="./assets/images/avatar-4.png" alt="Avatar Image" class="team__image" />
+                </div>
                 <div class="team__information">
                   <span class="team__name text--secondary">Janet bray</span>
                   <span class="team__position text text--sm text--secondary-color">Developer</span>
