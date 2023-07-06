@@ -1,5 +1,5 @@
 @import url("./abstracts/variables.css");
-@import url("./base/typo.css");
+@import url("./bases/typo.css");
 
 * {
   line-height: 125%;
@@ -73,12 +73,23 @@
 }
 
 /* Header */
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.logo-link {
+  height: auto;
+}
+
 .background {
   background-color: var(--primary-color);
 }
 
 .container {
-  padding: 37px 0px;
+  /* padding-top: 35px;
+  padding-bottom: 40px; */
   margin: auto;
   color: var(--white);
 }
