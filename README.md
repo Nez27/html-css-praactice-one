@@ -12,8 +12,8 @@
 
 ## Requirements
 
-- Work fine on Chrome browser latest version
-- Use the right HTML tags
+- Work fine on Chrome browser latest version.
+- Use the right HTML tags.
 - Use validate tools: https://validator.w3.org/
 
 ## Target
